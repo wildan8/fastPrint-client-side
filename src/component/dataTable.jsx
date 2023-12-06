@@ -150,9 +150,9 @@ const ProdukTable = () => {
                 <TableCell component="th" scope="row">
                   {row.nama_produk}
                 </TableCell>
-                <TableCell align="center">{row.kategori_id}</TableCell>
+                <TableCell align="center">{row.kategori.nama_kategori}</TableCell>
                 <TableCell align="center">{row.harga}</TableCell>
-                <TableCell align="center">{row.status_id}</TableCell>
+                <TableCell align="center">{row.status.nama_status}</TableCell>
                 <TableCell align="center">
                   <Link to={`/produk/${row.id}/editData`}>
                     <EditIcon style={{ marginRight: "10px" }} />
