@@ -15,6 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. jalankan program dengan terminal `npm run start`
 5. setelah berjalan, maka program akan berjalan di [http://localhost:3000](http://localhost:3000). 
 
+**nb: jalankan program `client` ini dan juga `server` bersama, repository untuk `server` dapat dilihat pada [https://github.com/wildan8/fastPrint-server-side]**
+
+===============================================---/
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
